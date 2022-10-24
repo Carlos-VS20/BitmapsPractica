@@ -71,18 +71,6 @@ class MainActivity : AppCompatActivity() {
       }
    }
 
-   private fun switch(randomNumber: Int, function: () -> Nothing) {
-
-   }
-
-   /*private fun loadBitmap (){
-      // Agregar el código para el listener cuando hace click sobre el botón.
-      val buttonListen = decodeSampledBitmapFromResource( resources,
-               R.drawable.forest_restoration_map_small,
-               imageViewBitmap!!.width,
-               imageViewBitmap!!.height
-         )
-   }*/
    private fun calculateInSampleSize(options: BitmapFactory.Options, reqWidth: Int, reqHeight: Int): Int {
       // Raw height and width of image
       val height = options.outHeight
